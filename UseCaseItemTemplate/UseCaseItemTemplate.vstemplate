@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:sdk="http://schemas.microsoft.com/developer/vstemplate-sdkextension/2010">
+  <TemplateData>
+    <Name>Use Case (Input, Output, UseCase, Interface)</Name>
+    <Description>Generates a folder with Input, Output, UseCase, and Interface files for a use case.</Description>
+    <Icon>UseCaseItemTemplate.ico</Icon>
+    <TemplateID>74fd361c-9427-4117-b643-0c24cc355bfa</TemplateID>
+    <ProjectType>CSharp</ProjectType>
+    <RequiredFrameworkVersion>2.0</RequiredFrameworkVersion>
+    <NumberOfParentCategoriesToRollUp>1</NumberOfParentCategoriesToRollUp>
+    <DefaultName>DontFillThis</DefaultName>
+  </TemplateData>
+  <TemplateContent>
+    <References>
+      <Reference>
+        <Assembly>System</Assembly>
+      </Reference>
+    </References>
+    <ProjectItem TargetFileName="$usecasename$\$usecasename$Input.cs" ReplaceParameters="true">Input.cs</ProjectItem>
+    <ProjectItem TargetFileName="$usecasename$\$usecasename$Output.cs" ReplaceParameters="true">Output.cs</ProjectItem>
+    <ProjectItem TargetFileName="$usecasename$\$usecasename$UseCase.cs" ReplaceParameters="true">UseCase.cs</ProjectItem>
+    <ProjectItem TargetFileName="$usecasename$\I$usecasename$UseCase.cs" ReplaceParameters="true">IUseCase.cs</ProjectItem>
+  </TemplateContent>
+  <WizardExtension>
+    <Assembly>UseCaseItemWizard, Version=1.0.0.0, Culture=Neutral, PublicKeyToken=0ad14e71a2276e4c</Assembly>
+    <FullClassName>UseCaseItemWizard.WizardImplementation</FullClassName>
+  </WizardExtension>
+</VSTemplate>
