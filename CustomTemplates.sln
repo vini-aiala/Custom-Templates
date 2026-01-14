@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseItemTemplate", "UseC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UseCaseItemWizard", "UseCaseItemWizard\UseCaseItemWizard.csproj", "{28F5A1ED-546E-4668-9673-9404EFF7DBAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuildRelease", "BuildRelease\BuildRelease.csproj", "{CB4C7559-D011-4791-8CED-6C77625BE159}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{28F5A1ED-546E-4668-9673-9404EFF7DBAF}.Release|arm64.Build.0 = Release|Any CPU
 		{28F5A1ED-546E-4668-9673-9404EFF7DBAF}.Release|x86.ActiveCfg = Release|Any CPU
 		{28F5A1ED-546E-4668-9673-9404EFF7DBAF}.Release|x86.Build.0 = Release|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Debug|arm64.ActiveCfg = Debug|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Debug|arm64.Build.0 = Debug|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Debug|x86.Build.0 = Debug|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Release|arm64.ActiveCfg = Release|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Release|arm64.Build.0 = Release|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Release|x86.ActiveCfg = Release|Any CPU
+		{CB4C7559-D011-4791-8CED-6C77625BE159}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
